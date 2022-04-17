@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/edit"
+        android:title="Edit Party"  />
+    <menu>
+        <item android:id="@+id/newname"
+            android:title="Edit Party Name" />
+        <item android:id="@+id/newdate"
+            android:title="Edit Party Date" />
+        <item android:id="@+id/newtime"
+            android:title="Edit Party Time" />
+        <item android:id="@+id/newlocation"
+            android:title="Edit Party Location" />
+    </menu>
+    <item
+        android:id="@+id/temp"
+        android:title="" />
+    <item
+        android:id="@+id/delete"
+        android:title="Delete Party" />
+    <item
+        android:id="@+id/invite"
+        android:title="Invite Guest" />
+    <item
+        android:id="@+id/logout"
+        android:title="Logout" />
+</menu>

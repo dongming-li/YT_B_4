@@ -1,0 +1,309 @@
+updaing server
+Already up-to-date.
+downloading files
+[32minfo[39m:    Forever restarted processes:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m       [90mscript[39m   [37mforever[39m [37mpid[39m   [37mid[39m [35mlogfile[39m                 [33muptime[39m       
+[90mdata[39m:    [0] _pWj [90m/usr/bin/node[39m [90mindex.js[39m 19459   19606    [35m/root/.forever/_pWj.log[39m [33m0:0:0:41.937[39m 
+started server
+updaing server
+Updating 5d4e78a..43cd595
+Fast-forward
+ WristbandServer/routes.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+downloading files
+[32minfo[39m:    Forever restarted processes:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m       [90mscript[39m   [37mforever[39m [37mpid[39m   [37mid[39m [35mlogfile[39m                 [33muptime[39m      
+[90mdata[39m:    [0] _pWj [90m/usr/bin/node[39m [90mindex.js[39m 19459   19652    [35m/root/.forever/_pWj.log[39m [33m0:0:0:4.927[39m 
+started server
+updaing server
+Already up-to-date.
+downloading files
+[32minfo[39m:    Forever restarted processes:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m       [90mscript[39m   [37mforever[39m [37mpid[39m   [37mid[39m [35mlogfile[39m                 [33muptime[39m      
+[90mdata[39m:    [0] _pWj [90m/usr/bin/node[39m [90mindex.js[39m 19459   19701    [35m/root/.forever/_pWj.log[39m [33m0:0:0:33.51[39m 
+started server
+updaing server
+Already up-to-date.
+downloading files
+[32minfo[39m:    Forever restarted processes:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m       [90mscript[39m   [37mforever[39m [37mpid[39m   [37mid[39m [35mlogfile[39m                 [33muptime[39m       
+[90mdata[39m:    [0] _pWj [90m/usr/bin/node[39m [90mindex.js[39m 19459   19750    [35m/root/.forever/_pWj.log[39m [33m0:0:0:12.179[39m 
+started server
+updaing server
+Already up-to-date.
+downloading files
+[32minfo[39m:    Forever restarted processes:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m       [90mscript[39m   [37mforever[39m [37mpid[39m   [37mid[39m [35mlogfile[39m                 [33muptime[39m       
+[90mdata[39m:    [0] _pWj [90m/usr/bin/node[39m [90mindex.js[39m 19459   19794    [35m/root/.forever/_pWj.log[39m [33m0:0:1:14.340[39m 
+started server
+updaing server
+Already up-to-date.
+downloading files
+[32minfo[39m:    Forever restarted processes:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m       [90mscript[39m   [37mforever[39m [37mpid[39m   [37mid[39m [35mlogfile[39m                 [33muptime[39m       
+[90mdata[39m:    [0] _pWj [90m/usr/bin/node[39m [90mindex.js[39m 19459   19838    [35m/root/.forever/_pWj.log[39m [33m0:0:0:37.250[39m 
+started server
+updaing server
+updaing server
+Updating 43cd595..dd3c386
+Fast-forward
+ WristbandServer/routes.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+downloading files
+downloading files
+[32minfo[39m:    Forever restarted processes:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m       [90mscript[39m   [37mforever[39m [37mpid[39m   [37mid[39m [35mlogfile[39m                 [33muptime[39m      
+[90mdata[39m:    [0] _pWj [90m/usr/bin/node[39m [90mindex.js[39m 19459   19885    [35m/root/.forever/_pWj.log[39m [33m0:0:0:9.260[39m 
+started server
+[32minfo[39m:    Forever restarted processes:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m       [90mscript[39m   [37mforever[39m [37mpid[39m   [37mid[39m [35mlogfile[39m                 [33muptime[39m      
+[90mdata[39m:    [0] _pWj [90m/usr/bin/node[39m [90mindex.js[39m 19459   19966    [35m/root/.forever/_pWj.log[39m [33m0:0:0:0.159[39m 
+started server
+updaing server
+updaing server
+Already up-to-date.
+downloading files
+Already up-to-date.
+downloading files
+[32minfo[39m:    Forever restarted processes:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m       [90mscript[39m   [37mforever[39m [37mpid[39m   [37mid[39m [35mlogfile[39m                 [33muptime[39m       
+[90mdata[39m:    [0] _pWj [90m/usr/bin/node[39m [90mindex.js[39m 19459   19972    [35m/root/.forever/_pWj.log[39m [33m0:0:0:56.298[39m 
+started server
+[32minfo[39m:    Forever restarted processes:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m       [90mscript[39m   [37mforever[39m [37mpid[39m   [37mid[39m [35mlogfile[39m                 [33muptime[39m     
+[90mdata[39m:    [0] _pWj [90m/usr/bin/node[39m [90mindex.js[39m 19459   20060    [35m/root/.forever/_pWj.log[39m [33m0:0:0:0.62[39m 
+started server
+updaing server
+Already up-to-date.
+downloading files
+[32minfo[39m:    Forever restarted processes:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m       [90mscript[39m   [37mforever[39m [37mpid[39m   [37mid[39m [35mlogfile[39m                 [33muptime[39m      
+[90mdata[39m:    [0] _pWj [90m/usr/bin/node[39m [90mindex.js[39m 19459   20066    [35m/root/.forever/_pWj.log[39m [33m0:0:0:36.35[39m 
+started server
+updaing server
+Already up-to-date.
+downloading files
+[32minfo[39m:    Forever restarted processes:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m       [90mscript[39m   [37mforever[39m [37mpid[39m   [37mid[39m [35mlogfile[39m                 [33muptime[39m      
+[90mdata[39m:    [0] _pWj [90m/usr/bin/node[39m [90mindex.js[39m 19459   20111    [35m/root/.forever/_pWj.log[39m [33m0:0:1:6.617[39m 
+started server
+updaing server
+Already up-to-date.
+downloading files
+[32minfo[39m:    Forever restarted processes:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m       [90mscript[39m   [37mforever[39m [37mpid[39m   [37mid[39m [35mlogfile[39m                 [33muptime[39m       
+[90mdata[39m:    [0] _pWj [90m/usr/bin/node[39m [90mindex.js[39m 19459   20155    [35m/root/.forever/_pWj.log[39m [33m0:0:0:49.948[39m 
+started server
+updaing server
+Already up-to-date.
+downloading files
+[32minfo[39m:    Forever restarted processes:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m       [90mscript[39m   [37mforever[39m [37mpid[39m   [37mid[39m [35mlogfile[39m                 [33muptime[39m       
+[90mdata[39m:    [0] _pWj [90m/usr/bin/node[39m [90mindex.js[39m 19459   20199    [35m/root/.forever/_pWj.log[39m [33m0:0:2:13.769[39m 
+started server
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+updaing server
+downloading files
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files
+updaing server
+downloading files

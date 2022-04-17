@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="300dp"
+    android:layout_height="100dp"
+    android:layout_gravity="center">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="What would you like to do?"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_gravity="left"
+            android:text="View User"
+            android:id="@+id/view_user"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_gravity="right"
+            android:text="Cancel"
+            android:id="@+id/cancel"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:text="Delete"
+            android:id="@+id/delete_comment"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+
+</LinearLayout>

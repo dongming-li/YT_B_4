@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Wristband</string>
+    <string name="facebook_app_id">1565935776760233</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="scan">Scan</string>
+
+</resources>

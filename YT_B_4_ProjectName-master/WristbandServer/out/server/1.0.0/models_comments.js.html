@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Source: models/comments.js</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Source: models/comments.js</h1>
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>var mysqlModel = require('mysql-model');
+var MyAppModel = require('./appModel');
+/**
+ * @class Comment
+ * Represents a Comment DB MySQL Model
+ * @param {tableName} table in db
+ */
+var Comment = MyAppModel.extend({
+    tableName: "comments",
+});
+
+module.exports = Comment;</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Modules</h3><ul><li><a href="module-Comment.html">Comment</a></li><li><a href="module-Party.html">Party</a></li><li><a href="module-Relation.html">Relation</a></li></ul><h3>Classes</h3><ul><li><a href="Comment.html">Comment</a></li><li><a href="module.exports.html">exports</a></li><li><a href="Party.html">Party</a></li><li><a href="Relation.html">Relation</a></li><li><a href="User.html">User</a></li></ul><h3>Global</h3><ul><li><a href="global.html#config">config</a></li><li><a href="global.html#delete:/comments/:iddeletesacommentbyid">delete: /comments/:id
+deletes a comment by id</a></li><li><a href="global.html#delete:/parties/:idDeletesapartybyid">delete: /parties/:id
+Deletes a party by id</a></li><li><a href="global.html#delete:/relationDeletesarelation">delete: /relation
+Deletes a relation</a></li><li><a href="global.html#delete:/users/:idDeletesauserbytheiruserid">delete: /users/:id
+Deletes a user by their user id</a></li><li><a href="global.html#get:/Representsthedefaultpathtothewebsite">get: /
+Represents the default path to the website</a></li><li><a href="global.html#get:/commentsGetsallcommentsfromthedatabase">get: /comments
+Gets all comments from the database</a></li><li><a href="global.html#get:/comments/:idGetsacommentfromthedb">get: /comments/:id
+Gets a comment from the db</a></li><li><a href="global.html#get:/get_comments/:idGetsalistofcommentsbasedonpartyid">get: /get_comments/:id
+Gets a list of comments based on party id</a></li><li><a href="global.html#get:/join_party/:idGetsalistofallusersassociatedwithaparty">get: /join_party/:id
+Gets a list of all users associated with a party</a></li><li><a href="global.html#get:/join_user/:idGetsalistofallrelationsassociatedwithauserandthepartyname">get: /join_user/:id
+Gets a list of all relations associated with a user and the party name</a></li><li><a href="global.html#get:/partiesGetsallpartiesfromthedb">get: /parties
+Gets all parties from the db</a></li><li><a href="global.html#get:/parties/:idGetsapartyfromthedbbyid">get: /parties/:id
+Gets a party from the db by id</a></li><li><a href="global.html#get:/party_name/:nameFindapartybynameinthedb">get: /party_name/:name
+Find a party by name in the db</a></li><li><a href="global.html#get:/relationCreatesanewrelation">get: /relation
+Creates a new relation</a></li><li><a href="global.html#get:/relationGetsallrelationsfromdb">get: /relation
+Gets all relations from db</a></li><li><a href="global.html#get:/relation/:idGetsarelationbyid">get: /relation/:id
+Gets a relation by id</a></li><li><a href="global.html#get:/user_name/:usernameFindsauserbytheirusernameinthedb">get: /user_name/:username
+Finds a user by their username in the db</a></li><li><a href="global.html#get:/users">get: /users</a></li><li><a href="global.html#get:/users/:idFindsauserbytheiridinthedatabase">get: /users/:id
+Finds a user by their id in the database</a></li><li><a href="global.html#post:/commentscreatesanewcommentinthedb">post: /comments
+creates a new comment in the db</a></li><li><a href="global.html#post:/emailSendsanemailwithaqrcode">post: /email
+Sends an email with a qr code</a></li><li><a href="global.html#post:/gitlabContinuousIntegrationRunsascripttopullfromgit">post: /gitlab
+Continuous Integration
+Runs a script to pull from git</a></li><li><a href="global.html#post:/partiesCreatesaparty">post: /parties
+Creates a party</a></li><li><a href="global.html#post:/textSendsatextmessagewithaqrcodetoaphonenumber">post: /text
+Sends a text message with a qr code to a phone number</a></li><li><a href="global.html#post:/usersFindsauserbytheirusernameinthedb">post: /users
+Finds a user by their username in the db</a></li><li><a href="global.html#post:/users/loginLetsauserlogin">post: /users/login
+Lets a user login</a></li><li><a href="global.html#put:/partiesUpdatesapartybyid">put: /parties
+Updates a party by id</a></li><li><a href="global.html#put:/users/:idUpdatesauserbytheiruserid">put: /users/:id
+Updates a user by their user id</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> on Thu Nov 30 2017 20:18:01 GMT-0600 (CST)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>

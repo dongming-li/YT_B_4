@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wristband.yt_b_4.wristbandclient.Create_Profile"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/first"
+        android:layout_above="@+id/last">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Name:"
+            android:textColor="@color/colorGray"
+            android:layout_marginTop="2dp"
+            android:textSize="55px" />
+
+        <EditText
+            android:layout_width="215dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:id="@+id/fname"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/last"
+        android:layout_below="@+id/first">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Name:"
+            android:textColor="@color/colorGray"
+            android:layout_marginTop="2dp"
+            android:textSize="55px" />
+
+        <EditText
+            android:layout_width="215dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:id="@+id/lname"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="125dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/emai"
+        android:layout_below="@+id/last">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:textColor="@color/colorGray"
+            android:layout_marginTop="2dp"
+            android:textSize="55px" />
+
+        <EditText
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/email"
+            android:layout_gravity="right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="185dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/usernam"
+        android:layout_below="@+id/emai">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username:"
+            android:textColor="@color/colorGray"
+            android:layout_marginTop="2dp"
+            android:textSize="55px" />
+
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/username"
+            android:layout_gravity="right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="245dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/passwor"
+        android:layout_below="@+id/usernam">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password:"
+            android:textColor="@color/colorGray"
+            android:layout_marginTop="2dp"
+            android:textSize="55px" />
+
+        <EditText
+            android:layout_width="225dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:inputType="textPassword"
+            android:id="@+id/password"
+            android:layout_gravity="right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="305dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/reent"
+        android:layout_below="@+id/passwor">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm password:"
+            android:textColor="@color/colorGray"
+            android:layout_marginTop="2dp"
+            android:textSize="55px" />
+
+        <EditText
+            android:layout_width="145dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="395dp"
+            android:inputType="textPassword"
+            android:id="@+id/reenter"
+            android:layout_gravity="right" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="120dp"
+        android:text="Create Profile"
+        android:textColor="@color/colorGray"
+        android:clickable="true"
+        android:onClick="createProfile"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="120dp"
+        android:id="@+id/btnCreate" />
+
+
+
+    <TextView
+        android:id="@+id/msgResponse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/bright"
+        android:textSize="35px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.822"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp" />
+
+</android.support.constraint.ConstraintLayout>
